@@ -6,10 +6,12 @@ import ChemicalERP from './components/chemicalERP';
 import NexusIndia from './components/nexusIndia';
 import BeyondSixSenses from './components/beyondSixSenses';
 import SmartTailoring from './components/smartTailoring';
-import CAJNK from './components/cajnk';
+
+import CAJNK from './components/CAJNK';
 import CivikExperiences from './components/civikExperiences';
-import LPC from './components/lpc';
-import Vaachi from './components/vaachi';
+import LPC from './components/LPC';
+import Vaachi from './components/Vaachi';
+
 import Marigold from './components/marigold';
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
       <div className="App">
         <Routes>
 
-          {/* Home / Project Page */}
+          {/* Home */}
           <Route path="/" element={<ProjectPage />} />
 
           {/* Featured Projects */}
